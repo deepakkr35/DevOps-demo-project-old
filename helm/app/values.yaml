@@ -9,7 +9,7 @@ image:
   repository: demo-java-app
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "${{github.run_id}}"
+  tag: "${{BUILD_NUMBER}}"
 
 appName: demo-java-app
 
